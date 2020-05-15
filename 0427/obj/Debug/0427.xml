@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+0427
+</name>
+</assembly>
+<members>
+<member name="T:_0427.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_0427.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_0427.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:_0427.Cat">
+ <summary>
+ 猫クラス
+ </summary>
+</member>
+<member name="T:_0427.Kind">
+ <summary>
+ 種別クラス
+ </summary>
+</member>
+<member name="P:_0427.Kind.KindCd">
+ <summary>
+ 種別コード
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:_0427.Kind.KindName">
+ <summary>
+ 種別名
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:_0427.Form1.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード時の処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.btnSearch_Click(System.Object,System.EventArgs)">
+ <summary>
+ 検索ボタンクリックイベント.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.search">
+ <summary>
+ 検索処理
+ </summary>
+</member>
+<member name="M:_0427.Form1.btnAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタンクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.btnUpdate_Click(System.Object,System.EventArgs)">
+ <summary>
+ 更新ボタンクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.btnDelete_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタンクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.dgvCat_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ データグリッドビューセルクリックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_0427.Form1.gridComboHandle(System.Windows.Forms.DataGridView,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ データグリッドビューのコンボボックス制御
+ </summary>
+ <param name="dgv"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
